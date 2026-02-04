@@ -1,0 +1,115 @@
+.slider {
+  display: flex;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  width:100%;
+}
+.slider-container {             
+  overflow-y: hidden;
+  overflow-x:scroll;
+  display: flex;
+  padding-left: 60px;
+  padding-right:60px;
+  justify-content: center;
+  scrollbar-width:none;
+}
+.slider-track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
+}
+/* hide scrollbar */
+.slider-track::-webkit-scrollbar {
+  display: none;
+}
+.view{
+    padding:120px;
+    margin-bottom:20px;
+    border-radius: 16px 0 0 16px;
+    cursor:pointer;
+    border:none;
+    
+}
+.live-auctions-inner{
+    max-width:1200px;
+    margin:0 auto;
+    padding:80px 0;
+}
+.live-auctions {
+  background: transparent;
+  color: white;
+  justify-content:center;
+}
+
+.auction-card {
+margin:0;
+  width: 400px;
+  background: #fff;
+  border-radius: 16px;
+  padding:0 20px;
+  scroll-snap-align: start;
+  flex: 0 0 280px;
+  align-items:stretch;
+}
+
+.condition{
+    font-size: 15px;
+    color:#b1a07c;
+    margin-top:4px
+}
+.condition span{
+    color:#111;
+    font-weight:500;
+}
+
+.auction-card img {
+  width: 100%;
+  height: auto;
+}
+.curbid{
+    color:#111;
+}
+.bid {
+  color: #7b4cff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.time {
+  font-size:20px;
+  color:#111
+}
+
+.car-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+.auction-card button {
+  margin-top: auto;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background: #7b4cff;
+  color: #fff;
+  cursor: pointer;
+}
+.car-specs {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.spec-label {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+.spec-value {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+}
