@@ -25,6 +25,8 @@ function LandingPage() {
       {/* ================= HERO ================= */}
       <section id="home" className="hero">
       <img src="/bgi.jpg" className="bg-image"/>
+       <div className="gradient-overlay-dark"></div>
+        <div className="gradient-overlay-purple"></div>
         <div className="hero-content">
         <h4 className="head">WHERE EVERY BID WINS TRUST</h4>
           <h1 className="heading">Where Auctions Are <br/>Transparent and Trusted</h1>
@@ -33,7 +35,7 @@ function LandingPage() {
             sellers through real-time, secure bidding.
           </p>
           <button className="btn_primary">Get Started for free</button>
-          <button className="btn_secondary">Browse Auctions<span class="arrow"> →</span></button>
+          <button className="btn_secondary">Browse Auctions<span className="arrow"> →</span></button>
         </div>
       </section>
       {/*===================IMAGE SECTION=================*/}
@@ -45,17 +47,7 @@ function LandingPage() {
   <div className="who-container">
     {/* LEFT IMAGE */}
     <div className="who-image">
-      <img src="/whoweare.png" />
-
-      <div className="stat stat-top">
-        <strong>24/7</strong>
-        <span>Live auctions</span>
-      </div>
-
-      <div className="stat stat-bottom">
-        <strong>3.5M+</strong>
-        <span>Listing views</span>
-      </div>
+      <img src="/carswithdetails.png" />
     </div>
 
     {/* RIGHT CONTENT */}
@@ -187,7 +179,9 @@ function LandingPage() {
 
       {/* ================= WHY US ================= */}
       <section id="whyus" className="features">
-        <h2>Why AutoBid?</h2>
+        <h5>WHY DEALERS CHOOSE US</h5>
+        <h2>Built for professional trading</h2>
+        <p>Every auction is designed to deliver verified access, real-time control, and predictable outcomes</p>
 
         <div className="feature-list">
           <div className="feature-card">
@@ -204,7 +198,9 @@ function LandingPage() {
             <h3>Secure Payments</h3>
             <p>Safe and transparent transactions every time.</p>
           </div>
+          <h5>WHY DEALERS CHOOSE US</h5>
         </div>
+
       </section>
 
       {/* ================= FAQ ================= */}
