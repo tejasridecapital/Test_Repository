@@ -24,7 +24,7 @@ function LandingPage() {
 
       {/* ================= HERO ================= */}
       <section id="home" className="hero">
-      <img src="/bgi.jpg" className="bg-image"/>
+      <img src="/bgi.jpg" className="bg-image" alt=""/>
        <div className="gradient-overlay-dark"></div>
         <div className="gradient-overlay-purple"></div>
         <div className="hero-content">
@@ -47,7 +47,7 @@ function LandingPage() {
   <div className="who-container">
     {/* LEFT IMAGE */}
     <div className="who-image">
-      <img src="/carswithdetails.png" />
+      <img src="/carswithdetails.png" alt="cars" />
     </div>
 
     {/* RIGHT CONTENT */}
@@ -126,7 +126,7 @@ function LandingPage() {
                 real-time bidding, full vehicle transparency, and a secure
                 post-auction process.
               </p>
-              <a href="#">Learn more →</a>
+              <button className="text-link">Learn more →</button>
             </div>
 
             <div className="feature-image">
@@ -145,7 +145,7 @@ function LandingPage() {
                 From registration to delivery, we handle the complete auction
                 lifecycle with secure payments and verified vehicle history.
               </p>
-              <a href="#">Learn more →</a>
+              <button className="text-link">Learn more →</button>
             </div>
 
             <div className="feature-image">
@@ -164,12 +164,12 @@ function LandingPage() {
                 No hidden fees, no undisclosed damage. Full inspection reports
                 and detailed photo galleries for every vehicle.
               </p>
-              <a href="#">Learn more →</a>
+              <button className="text-link">Learn more →</button>
             </div>
 
             <div className="feature-image">
               <img
-                src="/f3.png"
+                src="/f3.png" alt="vehicle Auction"
               />
             </div>
           </div>
@@ -198,8 +198,8 @@ function LandingPage() {
             <h3>Secure Payments</h3>
             <p>Safe and transparent transactions every time.</p>
           </div>
-          <h5>WHY DEALERS CHOOSE US</h5>
         </div>
+        <h5>TESTIMONIALS</h5>
 
       </section>
 
@@ -241,7 +241,7 @@ function LandingPage() {
 
         <div className="pre-footer-buttons">
           <button className="primary-btn">Get Started Free</button>
-          <button className="secondary-btn">Browse Auctions<span class="arrow"> →</span></button>
+          <button className="secondary-btn">Browse Auctions<span className="arrow"> →</span></button>
         </div>
       </section>
 
@@ -251,47 +251,42 @@ function LandingPage() {
     {/* Left brand */}
     <div className="footer-brand">
       <h3>AutoBid Pro</h3>
-
-      <div className="social-icons">
-        <span>🐦</span>
-        <span>📷</span>
-        <span>▶️</span>
-        <span>💼</span>
-      </div>
     </div>
 
     {/* Columns */}
+    <div className="footer-columns">
     <div className="footer-column">
       <h4>ABOUT</h4>
-      <a href="#">Overview</a>
-      <a href="#">Features</a>
-      <a href="#">Solutions</a>
-      <a href="#">Tutorials</a>
-      <a href="#">Pricing</a>
+      <button className="footer-link">Overview</button>
+      <button className="footer-link">Features</button>
+      <button className="footer-link">Solutions</button>
+      <button className="footer-link">Tutorials</button>
+      <button className="footer-link">Pricing</button>
     </div>
 
     <div className="footer-column">
       <h4>COMPANY</h4>
-      <a href="#">About Us</a>
-      <a href="#">Careers</a>
-      <a href="#">Press</a>
-      <a href="#">News</a>
-      <a href="#">Contact</a>
+      <button className="footer-link">About Us</button>
+      <button className="footer-link">Careers</button>
+      <button className="footer-link">Press</button>
+      <button className="footer-link">News</button>
+      <button className="footer-link">Contact</button>
     </div>
 
     <div className="footer-column">
       <h4>LEGAL</h4>
-      <a href="#">Terms of Service</a>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Cookie Policy</a>
-      <a href="#">Disclaimer</a>
+      <button className="footer-link">Terms of Service</button>
+      <button className="footer-link">Privacy Policy</button>
+      <button className="footer-link">Cookie Policy</button>
+      <button className="footer-link">Disclaimer</button>
     </div>
   </div>
 
   <div className="footer-bottom">
     © 2026 AutoBid Pro. All rights reserved.
-  </div>
-</footer>
+    </div>
+    </div>
+    </footer>    
     </div>
   );
 }
