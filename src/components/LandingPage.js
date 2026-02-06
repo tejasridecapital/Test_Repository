@@ -12,7 +12,7 @@ function LandingPage() {
         <nav className="nav-center">
           <a href="#home">Home</a>
           <a href="#about">Who We Are</a>
-          <a href="#auction">Auction</a>
+          <a href="#trusted-auctions">Auction</a>
           <a href="#whyus">Why Us</a>
           <a href="#faq">FAQ</a>
         </nav>
@@ -168,9 +168,7 @@ function LandingPage() {
             </div>
 
             <div className="feature-image">
-              <img
-                src="/f3.png" alt="vehicle Auction"
-              />
+              <img src="/f3.png" alt="vehicle Auction"/>
             </div>
           </div>
 
@@ -185,22 +183,26 @@ function LandingPage() {
 
         <div className="feature-list">
           <div className="feature-card">
-            <h3>Live Bidding</h3>
-            <p>Participate in real-time auctions with instant updates.</p>
+          <img src="/DeviceMobileSpeaker.png" alt="Icon"/>
+            <h6>Dealer-Only Access </h6>
+            <p>Our platform is exclusively for verified professionals, ensuring serious participation, genuine listings, and higher-quality auctions</p>
           </div>
 
           <div className="feature-card">
-            <h3>Verified Cars</h3>
-            <p>All vehicles are verified and inspected before listing.</p>
+          <img src="Clock.png" alt="Icon"/>
+            <h6>Total Transparency</h6>
+            <p>From detailed vehicle reports to real-time bidding activity, you see everything before and during the auction no hidden information</p>
           </div>
 
           <div className="feature-card">
-            <h3>Secure Payments</h3>
-            <p>Safe and transparent transactions every time.</p>
+          <img src="/CarProfile.png" alt="Icon"/>
+            <h6>Predictable Post-Auction Flow</h6>
+            <p>Clear next steps after winning, fast settlement, and secure documentation so you always know what happens next</p>
           </div>
         </div>
         <h5>TESTIMONIALS</h5>
-
+        <h2>Trusted by Dealers Nationwide</h2>
+        <p>Hear from professionals who rely on our platform for transparent<br/>and secure auctions</p>
       </section>
 
       {/* ================= FAQ ================= */}
@@ -281,10 +283,9 @@ function LandingPage() {
       <button className="footer-link">Disclaimer</button>
     </div>
   </div>
-
-  <div className="footer-bottom">
-    © 2026 AutoBid Pro. All rights reserved.
     </div>
+    <div className="footer-bottom">
+    © 2026 AutoBid Pro. All rights reserved.
     </div>
     </footer>    
     </div>
