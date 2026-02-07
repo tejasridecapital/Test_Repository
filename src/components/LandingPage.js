@@ -249,18 +249,18 @@ function LandingPage() {
     <div className="footer-brand">
       <h3>AutoBid Pro</h3>
       <div className="social-icons">
-    <a href="#" aria-label="Facebook">
+    <button aria-label="Facebook">
       <FaFacebookF />
-    </a>
-    <a href="#" aria-label="Instagram">
+    </button>
+    <button aria-label="Instagram">
       <FaInstagram />
-    </a>
-    <a href="#" aria-label="LinkedIn">
+    </button>
+    <button aria-label="LinkedIn">
       <FaLinkedinIn />
-    </a>
-    <a href="#" aria-label="Twitter">
+    </button>
+    <button aria-label="Twitter">
       <FaXTwitter />
-    </a>
+    </button>
   </div>
     </div>
 
