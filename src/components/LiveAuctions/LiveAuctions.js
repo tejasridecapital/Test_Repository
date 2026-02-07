@@ -96,7 +96,7 @@ function LiveAuctions() {
             <h3 className="car-name">Hyundai Model:i30</h3>
             <span className="time">03h 30m</span>
             <p className="condition">Overall Condition:<span>Excellent</span></p>
-            <p className="urbid">Current Bid</p>
+            <p className="curbid">Current Bid</p>
             <span className="live-wrapper">
             <p className="bid">€15,000
             <span className="live-pill">Live</span></p></span>
@@ -123,7 +123,7 @@ function LiveAuctions() {
             <h3 className="car-name">Nissan Model:Qashqai</h3>
             <span className="time">03h 30m</span>
             <p className="condition">Overall Condition:<span>Fair</span></p>
-            <p className="urbid">Current Bid</p>
+            <p className="curbid">Current Bid</p>
             <span className="live-wrapper">
             <p className="bid">€13,000
             <span className="live-pill">Live</span></p></span>
@@ -179,7 +179,7 @@ function LiveAuctions() {
             <h3 className="car-name">Mercedes Model:C-Class</h3>
             <span className="time">03h 30m</span>
             <p className="condition">Overall Condition:<span>Fair</span></p>
-            <h4 className="curbid">Current Bid</h4>
+            <p className="curbid">Current Bid</p>
             <span className="live-wrapper">
             <p className="bid">€12,500<span className="live-pill">Live</span></p></span>
             <img src="/car.png" alt="car" />
@@ -205,10 +205,9 @@ function LiveAuctions() {
             <h3 className="car-name">Hyundai Model:i30</h3>
             <span className="time">03h 30m</span>
             <p className="condition">Overall Condition:<span>Excellent</span></p>
-            <h4 className="curbid">Current Bid</h4>
-            <span className="live-wrapper">
+            <p className="curbid">Current Bid</p>
             <p className="bid">€15,000
-            <span className="live-pill">Live</span></p></span>
+            <span className="live-pill">Live</span></p>
             <img src="/car.png" alt="car" />
             <div class="car-specs">
     <div class="spec">
