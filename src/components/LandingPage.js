@@ -1,5 +1,6 @@
 import "./LandingPage.css";
 import LiveAuctions from "./LiveAuctions/LiveAuctions";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 function LandingPage() {
   return (
     <div>
@@ -12,7 +13,7 @@ function LandingPage() {
         <nav className="nav-center">
           <a href="#home">Home</a>
           <a href="#about">Who We Are</a>
-          <a href="#trusted-auctions">Auction</a>
+          <a href="#Auctions">Auction</a>
           <a href="#whyus">Why Us</a>
           <a href="#faq">FAQ</a>
         </nav>
@@ -25,8 +26,6 @@ function LandingPage() {
       {/* ================= HERO ================= */}
       <section id="home" className="hero">
       <img src="/bgi.jpg" className="bg-image" alt=""/>
-       <div className="gradient-overlay-dark"></div>
-        <div className="gradient-overlay-purple"></div>
         <div className="hero-content">
         <h4 className="head">WHERE EVERY BID WINS TRUST</h4>
           <h1 className="heading">Where Auctions Are <br/>Transparent and Trusted</h1>
@@ -91,12 +90,12 @@ function LandingPage() {
 </section>
 
 {/* ================= TRUSTED AUCTIONS ================= */}
-      <section className="trusted-auctions">
+      <section id="Auction" className="trusted-auctions">
         <div className="trusted-container">
           <span className="section-tag">LIVE AUCTIONS</span>
           <h2 className="trusted-title">Real-Time Auctions You Can Trust</h2>
           <p className="trusted-subtitle">
-            Bid on verified listings with full visibility and clear pricing.
+            Bid live on verified listings with full visibility and clear pricing.
           </p>
           <button className="trusted-btn">Browse Auctions</button>
         </div>
@@ -126,7 +125,6 @@ function LandingPage() {
                 real-time bidding, full vehicle transparency, and a secure
                 post-auction process.
               </p>
-              <button className="text-link">Learn more →</button>
             </div>
 
             <div className="feature-image">
@@ -145,7 +143,6 @@ function LandingPage() {
                 From registration to delivery, we handle the complete auction
                 lifecycle with secure payments and verified vehicle history.
               </p>
-              <button className="text-link">Learn more →</button>
             </div>
 
             <div className="feature-image">
@@ -164,14 +161,12 @@ function LandingPage() {
                 No hidden fees, no undisclosed damage. Full inspection reports
                 and detailed photo galleries for every vehicle.
               </p>
-              <button className="text-link">Learn more →</button>
             </div>
 
             <div className="feature-image">
               <img src="/f3.png" alt="vehicle Auction"/>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -185,7 +180,7 @@ function LandingPage() {
           <div className="feature-card">
           <img src="/DeviceMobileSpeaker.png" alt="Icon"/>
             <h6>Dealer-Only Access </h6>
-            <p>Our platform is exclusively for verified professionals, ensuring serious participation, genuine listings, and higher-quality auctions</p>
+            <p>Our platform is exclusively for verified ones, ensuring serious participation, genuine listings, and higher-quality auctions</p>
           </div>
 
           <div className="feature-card">
@@ -207,8 +202,6 @@ function LandingPage() {
 
       {/* ================= FAQ ================= */}
       <section id="faq" className="faq">
-        <h2>Frequently Asked Questions</h2>
-
         <details>
           <summary>How do I create a seller account?</summary>
           <p>You can sign up and complete the verification process.</p>
@@ -238,13 +231,15 @@ function LandingPage() {
 
       {/* ================= PRE FOOTER ================= */}
       <section className="pre-footer">
+        <div className="pre-footer-context">
+        <div className="pre-footer-text">
         <h2>Join a Trusted Dealer Auction Network</h2>
         <p>Join Ireland's trusted vehicle auctions and unlock exclusive deals</p>
-
+        </div>
         <div className="pre-footer-buttons">
           <button className="primary-btn">Get Started Free</button>
           <button className="secondary-btn">Browse Auctions<span className="arrow"> →</span></button>
-        </div>
+        </div></div>
       </section>
 
       {/* ================= FOOTER ================= */}
@@ -253,34 +248,40 @@ function LandingPage() {
     {/* Left brand */}
     <div className="footer-brand">
       <h3>AutoBid Pro</h3>
+      <div className="social-icons">
+    <a href="#" aria-label="Facebook">
+      <FaFacebookF />
+    </a>
+    <a href="#" aria-label="Instagram">
+      <FaInstagram />
+    </a>
+    <a href="#" aria-label="LinkedIn">
+      <FaLinkedinIn />
+    </a>
+    <a href="#" aria-label="Twitter">
+      <FaXTwitter />
+    </a>
+  </div>
     </div>
 
     {/* Columns */}
     <div className="footer-columns">
+
     <div className="footer-column">
-      <h4>ABOUT</h4>
-      <button className="footer-link">Overview</button>
-      <button className="footer-link">Features</button>
-      <button className="footer-link">Solutions</button>
-      <button className="footer-link">Tutorials</button>
-      <button className="footer-link">Pricing</button>
+      <h4>Link</h4>
+      <button className="footer-link">Home</button>
+      <button className="footer-link">Who we are</button>
+      <button className="footer-link">Auction</button>
+      <button className="footer-link">Why us</button>
+      <button className="footer-link">FAQ</button>
     </div>
 
     <div className="footer-column">
-      <h4>COMPANY</h4>
-      <button className="footer-link">About Us</button>
-      <button className="footer-link">Careers</button>
-      <button className="footer-link">Press</button>
-      <button className="footer-link">News</button>
-      <button className="footer-link">Contact</button>
-    </div>
-
-    <div className="footer-column">
-      <h4>LEGAL</h4>
-      <button className="footer-link">Terms of Service</button>
-      <button className="footer-link">Privacy Policy</button>
-      <button className="footer-link">Cookie Policy</button>
-      <button className="footer-link">Disclaimer</button>
+      <h4>Auction</h4>
+      <button className="footer-link">Category</button>
+      <button className="footer-link">Company</button>
+      <button className="footer-link">New listing</button>
+      <button className="footer-link">Auction end soon</button>
     </div>
   </div>
     </div>
