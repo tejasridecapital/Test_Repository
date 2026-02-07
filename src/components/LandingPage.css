@@ -608,7 +608,7 @@ body {
 .feature-row {
   display: flex;
   align-items: center;
-  justify-content: center;   /* 👈 KEY FIX */
+  justify-content: center;  
   gap: 80px;
   margin-bottom: 120px;
 }
